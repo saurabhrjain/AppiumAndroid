@@ -10,7 +10,7 @@ public class runJio {
        AndroidDriver driver= driverJio.getDriver();
 
 
-        driver.findElementByXPath("//android.widget.EditText[@text='Enter mobile number']").sendKeys("7620997555");
+        driver.findElementByXPath("//android.widget.EditText[@text='Enter mobile number']").sendKeys("43643434343");
 
         driver.findElementByXPath("//android.widget.Button[@text='Login']").click();
         Thread.sleep(1000);
