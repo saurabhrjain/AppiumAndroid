@@ -16,8 +16,8 @@ public class runCowin {
 
         driver.findElementByXPath("//android.widget.Button[@text='Login']").click();
         driver.findElementByXPath("//android.widget.Button[@text='While using the app']").click();
-        driver.findElementByXPath("//android.widget.EditText[@text='Mobile Number']").sendKeys("7620997555");
-        driver.findElementByXPath("//android.widget.EditText[@text='Enter your MPIN']").sendKeys("7775");
+        driver.findElementByXPath("//android.widget.EditText[@text='Mobile Number']").sendKeys("2871281212");
+        driver.findElementByXPath("//android.widget.EditText[@text='Enter your MPIN']").sendKeys("1234");
         driver.findElementByXPath("//android.widget.Button[@text='Login']").click();
         Thread.sleep(1000);
         */
