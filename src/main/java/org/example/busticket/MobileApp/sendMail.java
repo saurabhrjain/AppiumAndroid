@@ -20,7 +20,7 @@ public class sendMail {
 
     public static void sendDeatils(String Details) throws Exception {
         // TODO Auto-generated method stub
-        String recepient="saurabhjrg@gmail.com";
+        String recepient="xyz@gmail.com";
         Properties properties = new Properties();
         //conf.mailhandler.mail.smtp.auth=true
         //	conf.mailhandler.mail.user=mygmail@gmail.com
@@ -32,8 +32,8 @@ public class sendMail {
         properties.put("mail.smtp.host","smtp.googlemail.com")	;
         properties.put("mail.smtp.port","587")	;
 
-        final String myAccountEmail="saurabhjrg@gmail.com";
-        final String password="9552102030";
+        final String myAccountEmail="xyz123@gmail.com";
+        final String password="Password123";
 
         Session session =Session.getInstance(properties,new Authenticator() {
 
