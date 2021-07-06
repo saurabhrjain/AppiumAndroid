@@ -57,9 +57,9 @@ public class runIphone extends driverDesktop {
         totalTime = endTime - startTime;
         System.out.println("Bus Page Load Time: " + totalTime + " milliseconds");
         startTime = System.currentTimeMillis();
-        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("7620997555");
+        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("xyz@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("Lucky@me");
+        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("XYZ123");
         driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
         driver.findElement(By.xpath("//*[@id=\"address-book-entry-0\"]/div[2]/span/a")).click();
         driver.findElement(By.xpath("//*[@id=\"shippingOptionFormId\"]/div[1]/div[2]/div/span[1]/span/input")).click();
