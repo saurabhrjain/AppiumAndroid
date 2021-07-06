@@ -60,7 +60,7 @@ public class runBusTicket extends driverDesktop{
 driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("Saurabh Jain");
 driver.findElement(By.xpath("//input[@type='number']")).sendKeys("25");
 driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[1]/input")).clear();
-        driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[1]/input")).sendKeys("Saurabh.jain1@amdocs.com");
+        driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[1]/input")).sendKeys("xyz@amdocs.com");
         driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[4]/div[2]/div[1]/input")).clear();
         driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[2]/div[2]/div[4]/div[2]/div[1]/input")).sendKeys("7438764334");
         System.out.println(driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div[2]/div/div[2]/div[4]/div[1]")).getText());
